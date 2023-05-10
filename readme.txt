@@ -1,8 +1,8 @@
 === CYB ===
 Contributors: George Lerner
-Requires at least: 5.8
+Requires at least: 6.0
 Tested up to: 6.2
-Requires PHP: 5.7
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,6 +11,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Check Your Baggage (a child theme of Twenty Twenty-Three)
 
 == Changelog ==
+
+= 0.0.2 =
+* First on GitHub
+* Added font files
+* Default theme.json file
 
 = 0.0.1 =
 * Initial release

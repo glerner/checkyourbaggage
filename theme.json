@@ -397,7 +397,6 @@
 		}
 	},
 	"styles": {
-		"css": "/* CSS accessible underlines */ a, .elementor a:where(:not(.wp-element-button)) { vertical-align: baseline; text-decoration: underline; text-decoration-thickness: .15em; /* .25rem all the same thickness made too thick for tiny text */ text-underline-offset: .25em; /* em so offset on large fonts clears descenders */ color: var(--wp--preset--color--complementary-dark); word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; } .elementor-nav-menu--layout-horizontal .elementor-nav-menu a { white-space: nowrap; flex-grow: 1; text-decoration: none; } a:hover { text-underline-offset: .2em; text-decoration-skip-ink: auto; } ",
 		"blocks": {
 			"core/comments-title":{
 				"typography": {
