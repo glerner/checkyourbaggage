@@ -45,6 +45,9 @@ nav.wp-block-navigation img {
 img.custom-logo, nav.wp-block-navigation img.custom-logo {
     width: 100px;
 }
-nav.wp-block-navigation ul li {
+nav.wp-block-navigation ul {
     row-gap: 5px;
 }
+
+/* Color Palette in theme.json */
+

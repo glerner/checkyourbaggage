@@ -21,62 +21,62 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#42230a",
-					"name": "Seal Brown"
+					"color": "#0068a7",
+					"name": "Primary logo blue"
 				},
 				{
 					"slug": "secondary",
-					"color": "#6e4d2b",
-					"name": "Kobicha"
+					"color": "#20828c",
+					"name": "Secondary logo green"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#D7CEC1",
-					"name": "Bone"
+					"color": "#ed1c24",
+					"name": "Tertiary logo red"
 				},
 				{
 					"slug": "complementary",
-					"color": "#4A1818",
-					"name": "Chocolate Cosmos"
+					"color": "#20828c",
+					"name": "Complementary logo green"
 				},
 				{
 					"slug": "primary-lighter",
-					"color": "#c3bba2",
-					"name": "Khaki 2 (bone then khaki 2)"
+					"color": "#9ddbed",
+					"name": "Primary Lighter blue"
 				},
 				{
 					"slug": "primary-light",
-					"color": "#c6c9b0",
-					"name": "Ash gray"
+					"color": "#9ddbed",
+					"name": "Primary Light blue"
 				},
 				{
 					"slug": "primary-less-dark",
-					"color": "#3e432d",
-					"name": "Drab Dark Brown"
+					"color": "#1a5676",
+					"name": "Primary Less dark blue"
 				},
 				{
 					"slug": "primary-darker",
-					"color": "#262e1f",
-					"name": "Black Olive"
+					"color": "#0068a7",
+					"name": "Primary Darker blue"
 				},
 				{
 					"slug": "secondary-lighter",
-					"color": "#bbc1a4",
-					"name": "Sage"
+					"color": "#cfe7c7",
+					"name": "Secondary Lighter green"
 				},
 				{
 					"slug": "secondary-light",
-					"color": "#",
-					"name": ""
+					"color": "#cfe7c7",
+					"name": "Secondary Light green"
 				},
 				{
 					"slug": "secondary-less-dark",
-					"color": "#0F2C2C",
-					"name": "Secondary dark"
+					"color": "#1a5676",
+					"name": "Secondary less dark"
 				},
 				{
 					"slug": "secondary-darker",
-					"color": "#021919",
+					"color": "#3b3f37",
 					"name": "Secondary darker"
 				},
 				{
@@ -121,17 +121,17 @@
 				},
 				{
 					"slug": "contrast",
-					"color": "#290404",
+					"color": "#ed1c24",
 					"name": "Contrast"
 				},
 				{
 					"slug": "highlight1",
-					"color": "#F9FE88",
+					"color": "#ffde17",
 					"name": "Highlight 1"
 				},
 				{
 					"slug": "highlight2",
-					"color": "#E88080",
+					"color": "#cfe7c7",
 					"name": "Highlight 2"
 				},
 				{
@@ -162,29 +162,19 @@
 					"name": "Foreground and background"
 				},
 				{
-					"colors": [ "#000000", "#ffe2c7" ],
-					"slug": "foreground-and-secondary",
-					"name": "Foreground and secondary"
+					"colors": [ "#0068a7", "#9ddbed" ],
+					"slug": "doutone-primary",
+					"name": "Primary"
 				},
 				{
-					"colors": [ "#000000", "#f6f6f6" ],
-					"slug": "foreground-and-tertiary",
-					"name": "Foreground and tertiary"
+					"colors": [ "#20828c", "#cfe7c7" ],
+					"slug": "duotone-secondary",
+					"name": "Secondary"
 				},
 				{
-					"colors": [ "#1a4548", "#ffffff" ],
-					"slug": "primary-and-background",
-					"name": "Primary and background"
-				},
-				{
-					"colors": [ "#1a4548", "#ffe2c7" ],
+					"colors": [ "#0068a7", "#cfe7c7" ],
 					"slug": "primary-and-secondary",
 					"name": "Primary and secondary"
-				},
-				{
-					"colors": [ "#1a4548", "#f6f6f6" ],
-					"slug": "primary-and-tertiary",
-					"name": "Primary and tertiary"
 				}
 			],
 			"gradients": [
@@ -204,34 +194,34 @@
 					"name": "Vertical tertiary to background"
 				},
 				{
-					"slug": "diagonal-primary-to-foreground",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%)",
-					"name": "Diagonal primary to foreground"
+					"slug": "diagonal-primary-to-secondary",
+					"gradient": "linear-gradient(120deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--secondary-lighter) 100%)",
+					"name": "Diagonal primary to secondary"
 				},
 				{
-					"slug": "diagonal-secondary-to-background",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
-					"name": "Diagonal secondary to background"
+					"slug": "diagonal-secondary-to-primary",
+					"gradient": "linear-gradient(to right,var(--wp--preset--color--secondary), var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+					"name": "primary secondary tertiary"
 				},
 				{
 					"slug": "diagonal-background-to-secondary",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%)",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 0%,var(--wp--preset--color--secondary) 100%)",
 					"name": "Diagonal background to secondary"
 				},
 				{
-					"slug": "diagonal-tertiary-to-background",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%)",
-					"name": "Diagonal tertiary to background"
+					"slug": "radial-primary",
+					"gradient": "radial-gradient(circle farthest-side, var(--wp--preset--color--primary), var(--wp--preset--color--background) 100%)",
+					"name": "Radial background to primary"
 				},
 				{
 					"slug": "diagonal-background-to-tertiary",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%)",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 0%,var(--wp--preset--color--tertiary) 100%)",
 					"name": "Diagonal background to tertiary"
 				},
 				{
-					"slug": "d-transparent-primary",
-					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#5093D4 50%)",
-					"name": "Diagonal transparent to primary"
+					"slug": "mostly-primary",
+					"gradient": "linear-gradient( 109.6deg, var(--wp--preset--color--secondary) 11.2%, var(--wp--preset--color--primary) 91.1%)",
+					"name": "Mostly primary"
 				},
 				{
 					"slug": "d-primary-transparent",
@@ -239,24 +229,14 @@
 					"name": "Diagonal primary to transparent"
 				},
 				{
-					"slug": "d-white-primary",
-					"gradient": "linear-gradient(to bottom right,#fff 49.9%,#5093D4 50%)",
-					"name": "Diagonal white to primary"
+					"slug": "d-background-primary",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background), var(--wp--preset--color--primary))",
+					"name": "Diagonal background to primary"
 				},
 				{
 					"slug": "d-primary-white",
-					"gradient": "linear-gradient(to bottom right,#5093D4 49.9%,#fff 50%)",
-					"name": "Diagonal primary to white"
-				},
-				{
-					"slug": "h-primary-white",
-					"gradient": "linear-gradient(#5093D4 49.9%,#fff 50%)",
-					"name": "Horizontal primary to white"
-				},
-				{
-					"slug": "h-white-primary",
-					"gradient": "linear-gradient(#fff 49.9%,#5093D4 50%)",
-					"name": "Horizontal white to primary"
+					"gradient": "radial-gradient(to bottom right,var(--wp--preset--color--primary), var(--wp--preset--color--background))",
+					"name": "Diagonal primary to background"
 				}
 			]
 	},
