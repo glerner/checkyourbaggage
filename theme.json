@@ -6,7 +6,7 @@
 		"useRootPaddingAwareAlignments": true,
 		"color": {
 			"defaultPalette": false,
-			"defaultDuotone": false,
+			"defaultDuotone": true,
 			"defaultGradients": false,
 			"palette": [
 				{
@@ -138,8 +138,8 @@
 			"duotone": [
 				{
 					"colors": [ "#000000", "#ffffff" ],
-					"slug": "foreground-and-background",
-					"name": "Foreground and background"
+					"slug": "duotone-foreground-and-background",
+					"name": "Foreground"
 				},
 				{
 					"colors": [ "#0068a7", "#9ddbed" ],
@@ -474,6 +474,9 @@
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
+			"core/post-featured-image": {
+				"shadow": "var(--wp--preset--shadow--natural)"
+			},
 			"core/post-date": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--gl-system-font)",
@@ -505,6 +508,10 @@
 					"margin": {
 						"bottom": "1.25rem",
 						"top": "1.25rem"
+					},
+					"padding": {
+						"left": "0.25em",
+						"right": "0.25em"
 					}
 				},
 				"color": {
@@ -529,11 +536,6 @@
 							}
 						}
 					}
-				}
-			},
-			"core/post-featured-image": {
-				"outline": {
-					"style": "double"
 				}
 			},
 			"core/pullquote": {

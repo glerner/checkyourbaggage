@@ -49,23 +49,25 @@ nav.wp-block-navigation ul {
     row-gap: 5px;
 }
 
-/* Slight box shadow on 3 sides */
-h1,h2,h3,h4 {
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-	/* https://www.makeuseof.com/css-box-shadow-tricks-examples/
-	thin to bottom and right
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-	*/
-}
-
 /* Color Palette in theme.json
 These were from original logo
-ffde17 yellow
-3b3f37 dark gray (removed)
-0068a7 dark blue (briefcase handles)
-1a5676 shadow blue (none)
-cfe7c7 pale green
-9ddbed pale blue
-20828c blue-green
-ed1c24 red
+#ffde17 yellow
+#3b3f37 dark gray (removed)
+#0068a7 dark blue (briefcase handles)
+#1a5676 shadow blue (none)
+#cfe7c7 pale green
+#9ddbed pale blue
+#20828c blue-green
+#ed1c24 red
+
+#361cb7 darker purple
+#6158d6 dark purple
+#cecdfc pale purple
+#25A4CB blue button selected
+#46BADD blue button
+#6bb381 green button
+#346944 green button hover
+#6158d6 link
+#a70f14 link hover red
+
 */
