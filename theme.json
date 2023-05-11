@@ -6,7 +6,7 @@
 		"useRootPaddingAwareAlignments": true,
 		"color": {
 			"defaultPalette": false,
-			"defaultDuotone": true,
+			"defaultDuotone": false,
 			"defaultGradients": false,
 			"palette": [
 				{
@@ -21,8 +21,8 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#0068a7",
-					"name": "Primary logo blue"
+					"color": "#361cb7",
+					"name": "Primary purple"
 				},
 				{
 					"slug": "secondary",
@@ -31,8 +31,8 @@
 				},
 				{
 					"slug": "tertiary",
-					"color": "#361cb7",
-					"name": "Tertiary purple"
+					"color": "#0068a7",
+					"name": "Tertiary logo blue"
 				},
 				{
 					"slug": "complementary",
@@ -40,24 +40,14 @@
 					"name": "Complementary"
 				},
 				{
-					"slug": "primary-lighter",
-					"color": "#9ddbed",
-					"name": "Primary Lighter blue"
-				},
-				{
 					"slug": "primary-light",
-					"color": "#46BADD",
-					"name": "Primary Light blue"
+					"color": "#cecdfc",
+					"name": "Primary Light purple"
 				},
 				{
 					"slug": "primary-less-dark",
-					"color": "#25A4CB",
-					"name": "Primary Less dark blue"
-				},
-				{
-					"slug": "primary-darker",
-					"color": "#1a5676",
-					"name": "Primary Darker blue"
+					"color": "#6158d6",
+					"name": "Primary less dark purple"
 				},
 				{
 					"slug": "secondary-lighter",
@@ -80,14 +70,24 @@
 					"name": "Secondary darker"
 				},
 				{
+					"slug": "tertiary-lighter",
+					"color": "#9ddbed",
+					"name": "Tertiary Lighter blue"
+				},
+				{
 					"slug": "tertiary-light",
-					"color": "#cecdfc",
-					"name": "Tertiary Light purple"
+					"color": "#46BADD",
+					"name": "Tertiary Light blue"
 				},
 				{
 					"slug": "tertiary-less-dark",
-					"color": "#6158d6",
-					"name": "Tertiary less dark purple"
+					"color": "#25A4CB",
+					"name": "Tertiary Less dark blue"
+				},
+				{
+					"slug": "tertiary-darker",
+					"color": "#1a5676",
+					"name": "Tertiary Darker blue"
 				},
 				{
 					"slug": "accent",
@@ -126,7 +126,7 @@
 				},
 				{
 					"slug": "gray-medium",
-					"color": "#888888",
+					"color": "#cccccc",
 					"name": "Gray Medium"
 				},
 				{
@@ -142,19 +142,19 @@
 					"name": "Foreground"
 				},
 				{
-					"colors": [ "#0068a7", "#9ddbed" ],
+					"colors": [ "#20828c", "#cfe7c7" ],
 					"slug": "doutone-primary",
 					"name": "Primary"
 				},
 				{
-					"colors": [ "#20828c", "#cfe7c7" ],
+					"colors": [ "#0068a7", "#9ddbed" ],
 					"slug": "duotone-secondary",
 					"name": "Secondary"
 				},
 				{
-					"colors": [ "#0068a7", "#cfe7c7" ],
+					"colors": [ "#20828c", "#9ddbed" ],
 					"slug": "primary-and-secondary",
-					"name": "Primary and secondary"
+					"name": "Primary and Secondary"
 				}
 			],
 			"gradients": [
