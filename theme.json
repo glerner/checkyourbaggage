@@ -66,7 +66,7 @@
 				},
 				{
 					"slug": "secondary-light",
-					"color": "#346944",
+					"color": "#B5C497",
 					"name": "Secondary Light green"
 				},
 				{
@@ -76,13 +76,8 @@
 				},
 				{
 					"slug": "secondary-darker",
-					"color": "#1B2703",
+					"color": "#346944",
 					"name": "Secondary darker"
-				},
-				{
-					"slug": "tertiary-lighter",
-					"color": "#",
-					"name": "Tertiary lighter"
 				},
 				{
 					"slug": "tertiary-light",
@@ -95,13 +90,8 @@
 					"name": "Tertiary less dark purple"
 				},
 				{
-					"slug": "tertiary-darker",
-					"color": "#",
-					"name": "Tertiary darker"
-				},
-				{
 					"slug": "accent",
-					"color": "#a70f14",
+					"color": "#ed1c24",
 					"name": "Accent red"
 				},
 				{
@@ -110,9 +100,9 @@
 					"name": "Accent Light"
 				},
 				{
-					"slug": "contrast",
-					"color": "#ed1c24",
-					"name": "Contrast"
+					"slug": "accent-less-dark",
+					"color": "#a70f14",
+					"name": "Accent Less Dark"
 				},
 				{
 					"slug": "highlight1",
