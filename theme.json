@@ -91,7 +91,7 @@
 				},
 				{
 					"slug": "accent",
-					"color": "#ed1c24",
+					"color": "#a70f14",
 					"name": "Accent red"
 				},
 				{
@@ -101,7 +101,7 @@
 				},
 				{
 					"slug": "accent-less-dark",
-					"color": "#a70f14",
+					"color": "#ed1c24",
 					"name": "Accent Less Dark"
 				},
 				{
@@ -179,8 +179,8 @@
 					"name": "Diagonal primary to secondary"
 				},
 				{
-					"slug": "contrast-secondary-primary",
-					"gradient": "linear-gradient(135deg,var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--secondary) 21%, var(--wp--preset--color--tertiary) 100%)",
+					"slug": "primary-secondary-tertiary",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--secondary) 21%, var(--wp--preset--color--tertiary) 91%)",
 					"name": "primary secondary tertiary"
 				},
 				{
@@ -210,17 +210,17 @@
 				},
 				{
 					"slug": "primary-transparent",
-					"gradient": "radial-gradient(to bottom right, transparent, var(--wp--preset--color--primary), transparent )",
+					"gradient": "radial-gradient(farthest-corner at 20%, transparent, var(--wp--preset--color--primary), transparent )",
 					"name": "Radial transparent to primary"
 				},
 				{
 					"slug": "secondary-transparent",
-					"gradient": "radial-gradient(to bottom right, transparent, var(--wp--preset--color--secondary), transparent )",
+					"gradient": "radial-gradient(farthest-corner at 20%, transparent, var(--wp--preset--color--secondary), transparent )",
 					"name": "Radial transparent to secondary"
 				},
 				{
 					"slug": "primary-background",
-					"gradient": "radial-gradient(to bottom right,var(--wp--preset--color--primary), var(--wp--preset--color--background))",
+					"gradient": "radial-gradient(farthest-corner at 20%,var(--wp--preset--color--primary), var(--wp--preset--color--background))",
 					"name": "Radial primary to background"
 				}
 			]
@@ -703,7 +703,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "var(--wp--preset--color--accent)"
 				},
 				":focus": {
 					"typography": {
