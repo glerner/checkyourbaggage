@@ -31,8 +31,8 @@
 				},
 				{
 					"slug": "tertiary",
-					"color": "#ed1c24",
-					"name": "Tertiary logo red"
+					"color": "#361cb7",
+					"name": "Tertiary purple"
 				},
 				{
 					"slug": "complementary",
@@ -51,12 +51,12 @@
 				},
 				{
 					"slug": "primary-less-dark",
-					"color": "#1a5676",
+					"color": "#46BADD",
 					"name": "Primary Less dark blue"
 				},
 				{
 					"slug": "primary-darker",
-					"color": "#0068a7",
+					"color": "#25A4CB",
 					"name": "Primary Darker blue"
 				},
 				{
@@ -71,12 +71,12 @@
 				},
 				{
 					"slug": "secondary-less-dark",
-					"color": "#1a5676",
+					"color": "#6bb381",
 					"name": "Secondary less dark"
 				},
 				{
 					"slug": "secondary-darker",
-					"color": "#3b3f37",
+					"color": "#346944",
 					"name": "Secondary darker"
 				},
 				{
@@ -86,13 +86,13 @@
 				},
 				{
 					"slug": "tertiary-light",
-					"color": "#E8D656",
-					"name": "Tertiary Light"
+					"color": "#cecdfc",
+					"name": "Tertiary Light purple"
 				},
 				{
 					"slug": "tertiary-less-dark",
-					"color": "#354517",
-					"name": "Tertiary dark"
+					"color": "#6158d6",
+					"name": "Tertiary less dark purple"
 				},
 				{
 					"slug": "tertiary-darker",
@@ -101,7 +101,7 @@
 				},
 				{
 					"slug": "complementary-lighter",
-					"color": "#D2A2A2",
+					"color": "#a70f14",
 					"name": "Complementary lighter"
 				},
 				{
@@ -111,8 +111,8 @@
 				},
 				{
 					"slug": "complementary-dark",
-					"color": "#4A1818",
-					"name": "Chocolate Cosmos"
+					"color": "#ed1c24",
+					"name": "Complementary dark red"
 				},
 				{
 					"slug": "complementary-darker",
@@ -136,7 +136,7 @@
 				},
 				{
 					"slug": "highlight3",
-					"color": "#C1E3C1",
+					"color": "#1a5676",
 					"name": "Highlight 3"
 				},
 				{
@@ -179,14 +179,14 @@
 			],
 			"gradients": [
 				{
-					"slug": "vertical-secondary-to-tertiary",
-					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
-					"name": "Vertical secondary to tertiary"
-				},
-				{
 					"slug": "vertical-secondary-to-background",
 					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%)",
 					"name": "Vertical secondary to background"
+				},
+				{
+					"slug": "diagonal-background-to-secondary",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 0%,var(--wp--preset--color--secondary) 100%)",
+					"name": "Diagonal background to secondary"
 				},
 				{
 					"slug": "vertical-tertiary-to-background",
@@ -199,14 +199,14 @@
 					"name": "Diagonal primary to secondary"
 				},
 				{
-					"slug": "diagonal-secondary-to-primary",
-					"gradient": "linear-gradient(to right,var(--wp--preset--color--secondary), var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+					"slug": "contrast-secondary-primary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--secondary) 21%, var(--wp--preset--color--tertiary) 100%)",
 					"name": "primary secondary tertiary"
 				},
 				{
-					"slug": "diagonal-background-to-secondary",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 0%,var(--wp--preset--color--secondary) 100%)",
-					"name": "Diagonal background to secondary"
+					"slug": "vertical-secondary-to-tertiary",
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"name": "Vertical secondary to tertiary"
 				},
 				{
 					"slug": "radial-primary",
@@ -224,19 +224,24 @@
 					"name": "Mostly primary"
 				},
 				{
-					"slug": "d-primary-transparent",
-					"gradient": "linear-gradient(to bottom right, #5093D4 49.9%, transparent 50%)",
-					"name": "Diagonal primary to transparent"
+					"slug": "mostly-secondary",
+					"gradient": "linear-gradient( 109.6deg, var(--wp--preset--color--primary) 11.2%, var(--wp--preset--color--secondary) 91.1%)",
+					"name": "Mostly secondary"
 				},
 				{
-					"slug": "d-background-primary",
-					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background), var(--wp--preset--color--primary))",
-					"name": "Diagonal background to primary"
+					"slug": "primary-transparent",
+					"gradient": "radial-gradient(to bottom right, transparent, var(--wp--preset--color--primary), transparent )",
+					"name": "Radial transparent to primary"
 				},
 				{
-					"slug": "d-primary-white",
+					"slug": "secondary-transparent",
+					"gradient": "radial-gradient(to bottom right, transparent, var(--wp--preset--color--secondary), transparent )",
+					"name": "Radial transparent to secondary"
+				},
+				{
+					"slug": "primary-background",
 					"gradient": "radial-gradient(to bottom right,var(--wp--preset--color--primary), var(--wp--preset--color--background))",
-					"name": "Diagonal primary to background"
+					"name": "Radial primary to background"
 				}
 			]
 	},
