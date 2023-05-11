@@ -38,13 +38,13 @@ a:hover {
 }
 
 /* Site navigation with Site Logo and images */
-.wp-block-navigation-item img {
+nav.wp-block-navigation img {
     width: 38px;
     vertical-align: middle;
 }
-img.custom-logo, .wp-block-navigation-item img.custom-logo {
+img.custom-logo, nav.wp-block-navigation img.custom-logo {
     width: 100px;
 }
-.wp-block-navigation ul, .wp-block-navigation ul li {
+nav.wp-block-navigation ul li {
     row-gap: 5px;
 }
