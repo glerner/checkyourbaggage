@@ -36,8 +36,8 @@
 				},
 				{
 					"slug": "complementary",
-					"color": "#20828c",
-					"name": "Complementary logo green"
+					"color": "#6bb381",
+					"name": "Complementary"
 				},
 				{
 					"slug": "primary-lighter",
@@ -46,17 +46,17 @@
 				},
 				{
 					"slug": "primary-light",
-					"color": "#9ddbed",
+					"color": "#46BADD",
 					"name": "Primary Light blue"
 				},
 				{
 					"slug": "primary-less-dark",
-					"color": "#46BADD",
+					"color": "#25A4CB",
 					"name": "Primary Less dark blue"
 				},
 				{
 					"slug": "primary-darker",
-					"color": "#25A4CB",
+					"color": "#1a5676",
 					"name": "Primary Darker blue"
 				},
 				{
@@ -66,22 +66,22 @@
 				},
 				{
 					"slug": "secondary-light",
-					"color": "#cfe7c7",
+					"color": "#346944",
 					"name": "Secondary Light green"
 				},
 				{
 					"slug": "secondary-less-dark",
-					"color": "#6bb381",
+					"color": "#20828c",
 					"name": "Secondary less dark"
 				},
 				{
 					"slug": "secondary-darker",
-					"color": "#346944",
+					"color": "#1B2703",
 					"name": "Secondary darker"
 				},
 				{
 					"slug": "tertiary-lighter",
-					"color": "#B5C497",
+					"color": "#",
 					"name": "Tertiary lighter"
 				},
 				{
@@ -96,28 +96,18 @@
 				},
 				{
 					"slug": "tertiary-darker",
-					"color": "#1B2703",
+					"color": "#",
 					"name": "Tertiary darker"
 				},
 				{
-					"slug": "complementary-lighter",
+					"slug": "accent",
 					"color": "#a70f14",
-					"name": "Complementary lighter"
+					"name": "Accent red"
 				},
 				{
-					"slug": "complementary-light",
+					"slug": "accent-light",
 					"color": "#D2A2A2",
-					"name": "Complementary Light"
-				},
-				{
-					"slug": "complementary-dark",
-					"color": "#ed1c24",
-					"name": "Complementary dark red"
-				},
-				{
-					"slug": "complementary-darker",
-					"color": "#290404",
-					"name": "Complementary darker"
+					"name": "Accent Light"
 				},
 				{
 					"slug": "contrast",
@@ -136,7 +126,7 @@
 				},
 				{
 					"slug": "highlight3",
-					"color": "#1a5676",
+					"color": "#B5C497",
 					"name": "Highlight 3"
 				},
 				{
