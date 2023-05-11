@@ -210,12 +210,12 @@
 				},
 				{
 					"slug": "primary-transparent",
-					"gradient": "radial-gradient(farthest-corner at 20%, transparent, var(--wp--preset--color--primary), transparent )",
+					"gradient": "radial-gradient(ellipse closest-corner at 60% , transparent, var(--wp--preset--color--secondary), transparent )",
 					"name": "Radial transparent to primary"
 				},
 				{
 					"slug": "secondary-transparent",
-					"gradient": "radial-gradient(farthest-corner at 20%, transparent, var(--wp--preset--color--secondary), transparent )",
+					"gradient": "radial-gradient(ellipse closest-side at 55%, transparent, var(--wp--preset--color--secondary), transparent )",
 					"name": "Radial transparent to secondary"
 				},
 				{
