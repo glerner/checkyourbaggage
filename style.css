@@ -32,7 +32,8 @@ a, .elementor a:where(:not(.wp-element-button)) {
     flex-grow: 1;
     text-decoration: none;
 }
-a:hover {
+a:where(:not(.wp-element-button)):hover {
+    text-decoration: underline;
 	text-underline-offset: .2em;
     text-decoration-skip-ink: auto;
 }
@@ -48,6 +49,38 @@ img.custom-logo, nav.wp-block-navigation img.custom-logo {
 nav.wp-block-navigation ul {
     row-gap: 5px;
 }
+
+/* Site navigation Images */
+.wp-block-navigation-link a.menu_addadhd::before {
+    background-image: url("/wp-content/uploads/2023/05/adhd-discussion-category-icon.png");
+    }
+.wp-block-navigation-link a.menu_addiction::before {
+    background-image: url("/wp-content/uploads/2023/05/addiction-icon.png");
+    }
+.wp-block-navigation-link a::before {
+    display: inline-block;
+    background-size: 50px;
+    content: " ";
+    height: 49px;
+    background-repeat: no-repeat;
+    width: 56px;
+}
+/* probably need to remove the individual class name a.wp-block-navigation-item__content.menu_addadhd { */
+a.wp-block-navigation-item__content {
+    vertical-align: middle;
+    display: contents;
+}
+
+
+
+
+
+/* Discussion Board styles */
+.ctdb-info-author {
+    font-weight: normal;
+    font-size: var(--wp--preset--font-size--small);
+}
+
 
 /* Color Palette in theme.json
 These were from original logo
