@@ -90,11 +90,12 @@ nav.wp-block-navigation ul {
 
 .wp-block-navigation-link a::before {
     display: inline-block;
-    background-size: 50px;
+    background-size: 46px;
     content: " ";
-    height: 49px;
+    height: 46px;
     background-repeat: no-repeat;
-    width: 56px;
+    width: 50px;
+    vertical-align: middle;
 }
 a.wp-block-navigation-item__content {
     vertical-align: middle;
