@@ -51,12 +51,43 @@ nav.wp-block-navigation ul {
 }
 
 /* Site navigation Images */
-.wp-block-navigation-link a.menu_addadhd::before {
+.wp-block-navigation-link.menu_addadhd a::before {
     background-image: url("/wp-content/uploads/2023/05/adhd-discussion-category-icon.png");
-    }
-.wp-block-navigation-link a.menu_addiction::before {
+}
+.wp-block-navigation-link.menu_addiction a::before {
     background-image: url("/wp-content/uploads/2023/05/addiction-icon.png");
-    }
+}
+.wp-block-navigation-link.menu_anxiety a::before {
+    background-image: url("/wp-content/uploads/2023/05/anxiety-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_bullying a::before {
+    background-image: url("/wp-content/uploads/2023/05/bullying-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_depression a::before {
+    background-image: url("/wp-content/uploads/2023/05/depression-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_family a::before {
+    background-image: url("/wp-content/uploads/2023/05/family-issues-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_grief a::before {
+    background-image: url("/wp-content/uploads/2023/05/grief-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_loneliness a::before {
+    background-image: url("/wp-content/uploads/2023/05/loneliness-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_personality a::before {
+    background-image: url("/wp-content/uploads/2023/05/personality-disorder-icon.png");
+}
+.wp-block-navigation-link.menu_ptsd a::before {
+    background-image: url("/wp-content/uploads/2023/05/ptsd-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_relationship a::before {
+    background-image: url("/wp-content/uploads/2023/05/relationship-discussion-category-icon.png");
+}
+.wp-block-navigation-link.menu_suicide a::before {
+    background-image: url("https://app-63712382c1ac189bf80dcb50.closte.com/wp-content/uploads/2023/05/suicide-discussion-category-icon.png");
+}
+
 .wp-block-navigation-link a::before {
     display: inline-block;
     background-size: 50px;
@@ -65,14 +96,10 @@ nav.wp-block-navigation ul {
     background-repeat: no-repeat;
     width: 56px;
 }
-/* probably need to remove the individual class name a.wp-block-navigation-item__content.menu_addadhd { */
 a.wp-block-navigation-item__content {
     vertical-align: middle;
     display: contents;
 }
-
-
-
 
 
 /* Discussion Board styles */
